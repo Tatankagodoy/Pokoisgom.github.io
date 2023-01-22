@@ -1,0 +1,38 @@
+.menu-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(40, 93, 63, 1); /* menu bar background color */
+}
+
+.menu-item {
+  position: absolute;
+  left: 1250px; /* change this value to adjust the position of the links */
+  top: 45px; /* change this value to adjust the position of the links */
+  color: white; /* color of the links */
+  text-decoration: none; /* remove underline from the links */
+}
+.menu-item2 {
+  position: absolute;
+  left: 1000px; /* change this value to adjust the position of the links */
+  top: 45px; /* change this value to adjust the position of the links */
+  color: white; /* color of the links */
+  text-decoration: none; /* remove underline from the links */
+}
+
+body {
+  position: relative;
+}
+
+.menu-title {
+  position: absolute;
+  top: 500px; /* 500 pixels from the top */
+  left: 0%; /* 25% of the screen width */
+  width: 100%; /* width of the container */
+  background-color:rgba(40, 93, 63, 1); /* yellow container */
+  color: white; /* white text */
+  text-align: center; /* center-align text */
+  padding: 10px; /* add some padding */
+}
