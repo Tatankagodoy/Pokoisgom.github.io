@@ -171,12 +171,12 @@ header {
         color: #fff; }
     .main .precios .plan.active {
       background: #4c8dce;
-      color: #fff; }
+      color: #4c8dce; }
       .main .precios .plan.active .btn {
-        color: #fff;
-        border: 2px solid #fff; }
+        color: #4c8dce;
+        border: 2px solid #4c8dce; }
         .main .precios .plan.active .btn:hover {
-          background: #fff;
+          background: #4c8dce;
           color: #4c8dce; }
     .main .precios .plan.naranja .nombre,
     .main .precios .plan.naranja .precio {
