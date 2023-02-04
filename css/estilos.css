@@ -1,0 +1,59 @@
+/** Header **/
+.main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 50%;
+  background-color: whitesmoke;
+  border: 0px solid whitesmoke;
+}
+
+.main-nav-element{
+  display:inline-block;
+  padding-left: 15%;
+}
+
+.main-nav-element a {
+  color: black;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.main-nav-element a:hover {
+  color: white;
+  background-color: black;
+}
+
+.main-nav-element a:active{
+  color: white;
+  background-color: black;
+}
+
+.main-nav-element a::after {
+  content "     ";
+}
+
+/** Main**/
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.maintext {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+
+.mainpic {
+  width: 50%;
+  height: 100%;
+  border-right: 10px solid grey;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0;
+}
